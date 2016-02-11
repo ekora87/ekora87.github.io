@@ -1,45 +1,51 @@
-body{
+body {
     font-family: sans-serif;
     margin: auto;
-    width: 75%;    
-   }
-header{
+    width: 75%;
+}
+
+header {
     background-color: #0171C5;
     padding-top: 20px;
     padding-bottom: 5px;
 }
-h1{
+
+h1 {
     color: white;
     font-weight: normal;
     font-size: 40px;
     padding-left: 5px;
-    
 }
-nav a{
+
+nav a {
     color: white;
     padding-left: 5px;
     font-size: 17px;
 }
-nav,a{
+
+nav,
+a {
     padding-right: 10px;
 }
-h3{
+
+h3 {
     font-weight: lighter;
 }
-    
 
-h4{
+h4 {
     font-weight: normal;
 }
-p{
-    font-size:11px;
+
+p {
+    font-size: 11px;
     color: #58504D;
 }
-.colorbox{
-    background-color:#F3F3F3;
-    
+
+.colorbox {
+    background-color: #F3F3F3;
 }
-img{
-    width: 500px;
+
+img {
+    float: right;
 }
 
