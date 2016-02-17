@@ -1,0 +1,65 @@
+body{
+    width: 850px;
+    margin: 0 auto;
+    font-family: Arial;
+    }
+.background{
+    background-image:url(nasa-background.jpg);
+    position: relative;
+    top:0;    
+    width:850px;
+    height:450px;
+    z-index: -1;
+}
+.nasa {
+    text-align: center;
+    line-height: 450px;
+    color: white;
+    font-size: 40px;
+}
+
+main{
+    background-color: #E6E6E6;
+    height: 324px;
+    margin-top: 1em;  
+}
+h3 ~ div{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #575757;
+    }
+h3{
+    font-weight: 800;
+}
+.outside-box{
+    width: 270px;
+    float: left;
+}
+.outside-box:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.inside-box{
+    margin-left: 20px;
+}
+
+#name, #message{
+    width: 220px;
+    margin-bottom: 5px;
+}
+#message{
+    height: 75px;
+}
+#send{
+    background-color:dimgrey;
+    width: 70px;
+    height: 30px;
+    color: white;
+    font-family: Arial Black;
+    
+}
+
+
+
+
+
