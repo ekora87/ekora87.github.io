@@ -10,51 +10,57 @@
 <body>
     <img id="background" src="pictures/old_travel_photography-wallpaper-1920x1080.jpg">
     <header>
-        <nav>
-            <table>
-                <tr>
-                    <td><i class="fa fa-rocket fa-2x"></i></td>
-                    <td id="name">NEO PHAM
-                        <br><span>WEBSTUDIO</span></td>
-                    <td class="navbar"><a class="navlink" href="homework.html">Homeworks</a></td>
-                    <td class="navbar">Projects</td>
-                    <td class="navbar">About Me</td>
-                    <td class="navbar">Contact</td>
-                </tr>
-            </table>
-        </nav> 
+        <div class="icon">
+            <i class="fa fa-rocket fa-2x"></i>
+            <span>
+                <span>NEO PHAM</span>
+            <span class="web-icon">WEBSTUDIO</span>
+            </span>
+        </div>
+
+
+        <div class="menu-wrap">
+            <nav class="menu">
+                <ul class="clearfix">
+
+                    <li>
+                        <a href="#">Homeworks</a>
+                        <ul class="sub-menu">
+                            <li><a href="homeworkday1/homework.html">Homework Day 1</a></li>
+                            <li><a href="homeworkday2/daily-planet/DailyPlanet.html">Homework Day 2</a></li>
+                            <li><a href="homeworkday3/IntelWebPage.html">Homework Day 3</a></li>
+                            <li><a href="homeworkday4/intel.html">Homework Day 4</a></li>
+                            <li><a href="homeworkday5/index.html">Homework Day 5</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
     <main>
-        <table id="sidetable">
-            <tr>
-                <td id="intro">Intro Page</td>
-            </tr>
-            <tr>
-                <td id="siteby">Site by</td>
-            </tr>
-            <tr>
-                <td id="who">Neo Pham</td>
-            </tr>
-            <tr>
-                <td id="selfie"><img src="pictures/573_97748025014_6453_n%20(1).jpg"></td>
-            </tr>
-            <tr>
-                <td>~ About the site ~</td>
-            </tr>
-            <tr>
-                <td>An introduction page for <br>NP Webstudio, based in <br> Austin, TX</td>
-            </tr>
-            <tr>
-                <td id="share">~ Share it ~</td>
-            </tr>
-            <tr>
-                <td><i class="fa fa-facebook-official"></i></td>
-                <td><i class="fa fa-twitter"></i></td>
-                <td><i class="fa fa-reddit"></i></td>
-                <td><i class="fa fa-instagram"></i></td>
-                <td><i class="fa fa-github-alt"></i></td>
-        </table>
-        <table id="pics-table" >
+        <aside>
+            <div class="sidetable">
+                <div id="intro">Intro Page</div>
+                <div id="siteby">Site by</div>
+                <div id="who">Neo Pham</div>
+                <img id="selfie" src="pictures/573_97748025014_6453_n%20(1).jpg">
+                <div>~ About the site ~</div>
+                <div>An introduction page for NP Webstudio, based in Austin, TX</div>
+                <div id="share">~ Share it ~</div>
+                <div>
+                    <i class="fa fa-facebook-official"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-reddit"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-github-alt"></i>
+                </div>
+            </div>
+        </aside>
+        <table id="pics-table">
             <tr>
                 <td><img class="pictures" src="pictures/10329837_10154402124135363_2297658104127508057_o.jpg"></td>
                 <td><img class="pictures" src="pictures/10438925_10155801575225015_2217937862075564118_n.jpg"></td>
@@ -69,9 +75,10 @@
                 <td><img class="pictures" src="pictures/11004535_10155211789850015_4272219825640631005_o.jpg"></td>
                 <td><img class="pictures" src="pictures/12289469_10156252259420015_4913840229279405054_n.jpg"></td>
                 <td><img class="pictures" src="pictures/1480752_10155718897425015_7728462804195184451_n.jpg"></td>
-                
+
             </tr>
         </table>
     </main>
-    </body>
+</body>
+
 </html>
