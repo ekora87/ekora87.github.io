@@ -57,7 +57,7 @@ span:nth-child(1) {
 
 .menu li:hover > a {
     text-decoration: none;
-    color: #be5b70;
+    color: white;
 }
 
 .menu > ul > li {
