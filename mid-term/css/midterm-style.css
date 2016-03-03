@@ -1,0 +1,114 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+header{
+    padding: 20px;
+}
+header h2{
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+header nav{
+    float: right;
+}
+header nav a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: grey;
+}
+header nav a:hover{
+    color: blue;
+    background: violet;
+}
+section{
+    margin: 30px 0;
+}
+#background{
+    background-image: url('../img/computer-tablet-phone_0+copy.jpg');
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: overlay;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text-box{
+    text-align: center;
+    color: white;
+}
+.text-box h3{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.text-box p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.text-box a{
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding: 10px 30px;
+}
+.logo-pic{
+    width: 400px;
+    height: 400px;
+}
+.about{
+    text-align: center;
+    width: 400px;
+    padding: 120px;
+}
+.about h4{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.logo-pic,.about{
+    float: left;
+}
+.categories div{
+    width: 200px;
+    text-align: center;
+    float: left;
+    margin: 0 30px;
+}
+.categories img{
+    width: 150px;
+}
+.categories h4{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+.below-category div{
+    width: 400px;
+    text-align: center;
+    float: left;
+    margin: 0 60px;
+}
+.below-category img{
+    width: 400px;
+}
+#date{
+    float: right;
+}
+#background-bottom{
+     background-image: url('../img/gaming-desktops.jpg');
+    background-color: rgba(0,0,0,0.8);
+    background-blend-mode: overlay;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#background-bottom a{
+    margin: 0 20px;
+}
