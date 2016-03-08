@@ -21,7 +21,7 @@ header nav{
 }
 header nav a{
     text-decoration: none;
-    padding-left: 15px;
+    padding: 0 15px;
     color: grey;
 }
 header nav a:hover{
@@ -62,17 +62,21 @@ section{
     height: 400px;
 }
 .about{
-    text-align: center;
     width: 400px;
-    padding: 120px;
+    padding: 50px;
 }
 .about h4{
     font-weight: bold;
     font-size: 30px;
     padding-bottom: 30px;
+    text-align: center;
 }
 .logo-pic,.about{
     float: left;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
 }
 .categories div{
     width: 200px;
