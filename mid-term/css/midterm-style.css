@@ -8,7 +8,8 @@
     clear: both;
 }
 header{
-    padding: 20px;
+    padding: 20px 0;
+    background-color: #FCD68A;
 }
 header h2{
     float: left;
@@ -78,6 +79,7 @@ section{
     display: flex;
     justify-content: center;
 }
+
 .categories div{
     width: 200px;
     text-align: center;
