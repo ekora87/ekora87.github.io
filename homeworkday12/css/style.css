@@ -1,0 +1,95 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: serif;
+    color: white;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.top-background {
+    background-color: #2BCDC0;
+    padding: 120px 0;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+h2 span {
+    font-weight: bold;
+}
+
+.bottom-background {
+    background-color: black;
+    padding: 120px 0;
+}
+
+.bottom {
+    background: #33A8DD;
+    height: 100%;
+}
+
+.bottom article {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 13px;
+}
+
+article div {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+article p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box1 {
+    background: black;
+}
+
+.box2 {
+    background: #F46731;
+}
+
+.box3 {
+    background: #2BCDC0;
+}
+
+.box4 {
+    background: white;
+}
+
+@media screen and (max-width:767px) {
+    .top-background,
+    .bottom-background {
+        width: 50%;
+        height: 200px;
+        float: left;
+    }
+    main {
+        background-color: aqua;
+    }
+    .bottom article {
+        width: 50%;
+        margin: 50px auto;
+    }
+    article div {
+        width: 60%;
+    }
+    article p {
+        width: 50%;
+    }
+}

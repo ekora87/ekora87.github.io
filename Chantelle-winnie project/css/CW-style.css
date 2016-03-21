@@ -1,0 +1,292 @@
+body {
+    width: 80%;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    background-image: url(../img/Desigual_11.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header h4 {
+    color: #FF5A15;
+    float: left;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.top-nav p {
+    float: right;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.cw-name {
+    color: white;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.cw-name .name {
+    font-size: 50px;
+    text-align: right;
+}
+
+.cw-name .white-line {
+    background: white;
+    width: 20px;
+    height: 5px;
+    float: right;
+}
+
+.small-textbox {
+    width: 100%;
+    margin-left: 480px;
+}
+
+.small-textbox h5 {
+    color: #FF5A15;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.small-textbox p:last-child {
+    color: gray;
+    font-size: 11px;
+    padding-bottom: 60px;
+}
+
+article {
+    width: 50%;
+    float: left;
+    height: 1290px;
+}
+
+.button {
+    color: white;
+    background-color: #2A2A2A;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.leading-lady {
+    width: 30%;
+    margin: 10px 180px;
+    line-height: 1.5;
+}
+
+.bold-text {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+h2 span {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 11px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.paragraph-1 {
+    color: #8A8A8C;
+    width: 50%;
+    margin: 20px 180px;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.picture-1 img {
+    background-position: center;
+    width: 100%;
+    z-index: -1;
+}
+
+.picture-2 img {
+    width: 100%;
+    z-index: -1;
+    height: 800px;
+}
+
+.fashion-industry {
+    background-color: black;
+    opacity: 0.9;
+    height: 260px;
+    position: relative;
+    top: -400px;
+    padding: 70px 100px;
+}
+
+.small-title {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: grey;
+    padding-bottom: 30px;
+}
+
+.small-para {
+    color: #8A8A8C;
+    width: 75%;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.lifelong-dream {
+    padding: 70px 100px;
+    position: relative;
+    top: -400px;
+}
+
+.redline-box {
+    width: 80%;
+    position: relative;
+    top: -400px;
+    left: -70px;
+}
+
+#redline {
+    border-bottom: 3px solid red;
+    width: 30%;
+}
+
+.redline-box p {
+    padding-top: 20px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+#right-image {
+    text-align: right;
+}
+
+#bottom-pic1 {
+    width: 90%;
+    margin-top: 100px;
+}
+
+.redline-box2 div {
+    border-left: 3px solid red;
+    margin: 50px 160px;
+    font-size: 15px;
+    padding-left: 20px;
+    width: 60%;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+#bottom-pic2 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.bottom-name {
+    font-size: 40px;
+    font-weight: bold;
+    width: 30%;
+    text-align: right;
+    padding: 0 50px;
+    float: right;
+    border-right: 1px solid grey;
+}
+
+#bottom-pic3 {
+    width: 619.594px;
+    margin-top: 20px;
+    height: 25%;
+    z-index: -1;
+    position: relative;
+    left: -80px;
+}
+
+#story-button {
+    background-color: #2A2A2A;
+    color: white;
+    width: 10%;
+    position: relative;
+    left: -20px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 11px;
+    margin-top: 50px;
+}
+
+.NTM {
+    margin: 10px 80px;
+    line-height: 1.5;
+}
+
+.bottomright-para {
+    color: #8A8A8C;
+    margin-top: 30px;
+    width: 70%;
+    text-align: justify;
+    font-size: 10px;
+}
+
+.bottomright-para p {
+    padding-bottom: 20px;
+}
+
+.bottomright-para h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.signature {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.bottom-link {
+    padding: 20px 50px;
+    width: 55%;
+}
+
+.bottom-link p {
+    float: left;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.bottom-link a {
+    padding-right: 20px;
+    font-size: 10px;
+    color: #2A2A2A;
+}
+
+
+
+
