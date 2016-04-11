@@ -11,8 +11,8 @@ $(function() {
 });
 
 function start_count(){
-       $({countNum: $('#counter').text()}).animate({countNum: 461  }, {
-          duration: 3000,
+       $({countNum: $('#counter').text()}).animate({countNum: 2451  }, {
+          duration: 6000,
           easing:'linear',
           step: function() {
             $('#counter').text(Math.floor(this.countNum));
@@ -24,7 +24,7 @@ function start_count(){
         });
     
     $({countNum: $('#counter2').text()}).animate({countNum: 16  }, {
-          duration: 3000,
+          duration: 6000,
           easing:'linear',
           step: function() {
             $('#counter2').text(Math.floor(this.countNum));

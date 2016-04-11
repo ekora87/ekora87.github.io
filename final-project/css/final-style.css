@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 100%;
 }
 
@@ -351,6 +351,44 @@ team-container {
     left: -7px;
 }
 
+.works-heading {
+    font-family: Georgia;
+}
+
+.works-heading h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase
+}
+
+.works-heading p {
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+.works-heading span {
+    font-size: 20px;
+    color: orange;
+}
+
+.works-container {
+    height: auto;
+    margin: 30px 0;
+}
+
+.our-works div {
+    padding: 0;
+}
+
+.our-works img {
+    height: 200px;
+    width: 100%;
+}
+
+.our-works img:hover {
+    background: blue;
+}
+
 .user {
     padding-top: 200px;
 }
@@ -523,6 +561,11 @@ footer li {
     /*Team Section*/
     .team-heading {
         padding: 10px;
+    }
+    /*Projects Section*/
+    .our-works img {
+        height: 350px;
+        width: 100%;
     }
     /*Services Section*/
     .octagon {
