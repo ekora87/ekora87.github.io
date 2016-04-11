@@ -1,0 +1,61 @@
+img {
+    height: 400px;
+}
+
+.line {
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+}
+
+.top-stories p:first-child {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.top-stories p {
+    font-weight: bold;
+}
+
+.technology p {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.technology div {
+    background: #4D4D4D;
+    color: white;
+    text-transform: uppercase;
+    width: 110px;
+    padding: 5px;
+}
+
+footer {
+    background: #5D5D5D;
+    color: white;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.left,
+.right {
+    margin: 10px auto;
+    padding-left: 50px;
+}
+
+.small-line {
+    border-bottom: 1px solid gray;
+    width: 100px;
+}
+
+i {
+    margin-left: 15px;
+}
+
+.fa-twitter {
+    margin-left: 36px;
+}

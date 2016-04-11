@@ -1,0 +1,564 @@
+.container{
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    background-color: transparent;
+    transition: all 0.25s ease;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: orange;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: orange;
+}
+
+#background1 {
+    background-image: url(../img/construction-work-carpenter-tools.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#background2 {
+    background-image: url(../img/bigstock-Handyman-with-a-tool-belt-Hou-49817009.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background2-textbox {
+    padding: 200px;
+    color: white;
+    line-height: 2;
+    font-family: Georgia;
+}
+
+.background2-textbox h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left:
+}
+
+.background2-textbox h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: orange;
+    margin-bottom: 80px;
+}
+
+.background2-textbox p {
+    margin-left: 0;
+}
+
+.background2-textbox p:nth-child(4) {
+    margin-bottom: 80px;
+}
+
+.read-more {
+    padding: 20px 30px;
+    background: rgba(68, 138, 255, 0.74902);
+    margin-right: 80px;
+    border: 2px solid rgb(68, 138, 255);
+}
+
+.background2-textbox a:hover {
+    background: rgb(255, 193, 7);
+    text-decoration: none;
+}
+
+.get-started {
+    padding: 20px 30px;
+    background: rgb(255, 255, 255);
+    color: black;
+    border: 3px solid rgb(164, 165, 176);
+}
+
+.mySlides img {
+    padding-top: 200px;
+}
+
+.welcome-text {
+    padding: 0 150px;
+    line-height: 2;
+}
+
+.welcome-text p:first-child {
+    margin-left: 0;
+    color: orange;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.welcome-text h2 {
+    margin-top: 50px;
+}
+
+.welcome-text p:last-child {
+    margin: 50px 0;
+}
+
+.handyman-pic {
+    padding-left: 0;
+}
+
+.handyman-pic img {
+    width: 100%;
+    height: 495px;
+    padding-left: 0;
+}
+
+.about-us h3:nth-child(2) {
+    font-size: 50px;
+}
+
+.about-us h3:nth-child(3) {
+    font-size: 30px;
+}
+
+.about-us h3,
+h4 {
+    text-align: center;
+}
+
+.saw-background {
+    background-image: url(../img/Insurance-Coverage-For-a-Handyman.jpg);
+    height: 498px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.why-us {
+    color: white;
+    margin-right: 20px;
+}
+
+.why-us div {
+    border: 2px solid #efefef;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.why-us i {
+    color: orange;
+    float: left;
+    margin-right: 30px;
+    width: 30px;
+}
+
+.why-us h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    position: relative;
+    left: -10px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.why-us p {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.services-container,
+team-container {
+    width: 80%;
+}
+
+.team-heading {
+    margin-left: 0;
+    padding: 10px 200px;
+    font-family: Georgia;
+    line-height: 2;
+}
+
+.team-heading h4 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.team-heading span {
+    color: orange;
+}
+
+.team-heading p {
+    margin-left: 0;
+}
+
+.team-container img {
+    width: 100%;
+    height: auto;
+}
+
+.services-container {
+    background-image: url(../img/7-Tools-I-use4.jpg);
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.services-heading {
+    padding: 10px 0;
+    font-family: Georgia;
+    border: 1px solid #efefef;
+    margin: 30px 0;
+    color: lightyellow;
+}
+
+.services-heading h4 {
+    text-transform: uppercase;
+    font-family: Georgia;
+    font-size: 30px;
+}
+
+.services-heading span {
+    color: orange;
+}
+
+.services-heading p {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.services-col>img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.icon-box {
+    position: relative;
+    top: -40px;
+    z-index: 1;
+    margin-left: 70px;
+}
+
+.icon-textbox {
+    margin-left: 30px;
+}
+
+.icon-box h6 {
+    color: lightyellow;
+    font-weight: bold;
+    padding: 26.5px;
+    position: relative;
+    background: rgba(34, 34, 34, 0.9);
+    z-index: -1;
+    text-align: right;
+}
+
+.octagon {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.octagon .inner_octagon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    transform: rotate(45deg);
+    position: relative;
+    overflow: hidden;
+}
+
+.octagon .inner_octagon:after {
+    position: absolute;
+    content: "";
+    left: -10%;
+    top: -10%;
+    width: 150%;
+    height: 150%;
+    transform: rotate(-45deg);
+}
+
+.rotate-pic {
+    width: 90%;
+    transform: rotate(-45deg);
+}
+
+.feedback-container {
+    padding: 30px 30px 10px;
+}
+
+.feedback-container h3 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.speech-bubble {
+    width: 80%;
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    font-style: italic;
+    height: 170px;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+.bottom:after {
+    border-color: #f8f8f8 transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
+
+.user {
+    padding-top: 200px;
+}
+
+.user img {
+    border-radius: 50%;
+    float: left;
+    border: 2px solid gray;
+}
+
+.user h5,
+p {
+    margin-left: 100px;
+}
+
+.user h5 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.user p {
+    color: gray;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.clients {
+    background: #242424;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.counter i {
+    float: left;
+    color: orange;
+    padding: 10px;
+    border-right: 1px dotted #efefef;
+}
+
+.counter-box {
+    color: white;
+}
+
+.counter-box h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.counter-box > div {
+    font-size: 25px;
+}
+
+.years {
+    background: #242424;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    color: gray;
+    margin-top: 30px;
+    background: #181818;
+    padding: 50px 0 50px 50px;
+}
+
+.footer-container h3 {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.footer-container hr {
+    border: 1px solid orange;
+    width: 80%;
+}
+
+.mission p {
+    margin-left: 0;
+    width: 90%;
+}
+
+footer li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.information a {
+    padding-left: 10px;
+}
+
+.information a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.info-left {
+    float: left;
+    padding-left: 0;
+}
+
+.info-right {
+    padding-left: 50%;
+}
+
+.contact,
+.follow {
+    padding-left: 0;
+}
+
+.contact span {
+    padding-left: 10px;
+}
+
+.follow span {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+#fb {
+    margin-left: 6px;
+}
+
+.maps iframe {
+    pointer-events: none;
+}
+
+@media (max-width: 991px) {
+    /*Nav Bar*/
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 8px;
+    }
+    /*Background*/
+    #background2 {
+        background-position: right;
+        height: auto;
+    }
+    .background2-textbox h2 {
+        margin-bottom: 30px;
+    }
+    .background2-textbox {
+        padding: 100px 0 50px 20px;
+    }
+    .read-more,
+    .get-started {
+        padding: 10px;
+        width: auto;
+    }
+    .read-more {
+        margin-right: 20px;
+    }
+    /*Welcome Section*/
+    .welcome-text {
+        padding: 0 20px;
+    }
+    /*Saw Background Section*/
+    .saw-background {
+        height: auto;
+    }
+    .why-us {
+        margin-right: 0;
+    }
+    .why-us div {
+        margin: 80px 0;
+    }
+    /*Team Section*/
+    .team-heading {
+        padding: 10px;
+    }
+    /*Services Section*/
+    .octagon {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-box h6 {
+        padding: 17px;
+    }
+    /*Feedback Section*/
+    .feedback-container h3 {
+        text-align: center;
+    }
+    .speech-bubble {
+        width: auto;
+    }
+    .feedback-wrapper,
+    .counter {
+        border: 1px solid #efefef;
+    }
+    .counter {
+        margin-top: 20px;
+    }
+    /*Counter Box*/
+    .counter-box h4 {
+        font-size: 20px;
+    }
+    /*Footer*/
+    .footer-container {
+        padding-right: 50px;
+    }
+    .footer-row div {
+        margin: 30px;
+        border: 1px solid #efefef;
+    }
+}
+
+
+}
