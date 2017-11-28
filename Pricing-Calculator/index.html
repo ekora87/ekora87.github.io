@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pricing Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <div id="options">
+
+
+    <select id="platform" class="custom-select">
+      <option selected>Platform</option>
+      <option value="laptops">Laptops</option>
+      <option value="desktops">Desktops</option>
+    </select>
+    <select id="models" class="custom-select">
+      <option selected>Models</option>
+      <option value="LT" data-id="139">E5400 C2D</option>
+      <option value="LT" data-id="139">E5500 C2D</option>
+      <option value="LT" data-id="139">E6400 C2D</option>
+      <option value="LT" data-id="139">E6500 C2D</option>
+      <option value="LT" data-id="155">E4310 i5</option>
+      <option value="LT" data-id="198">E6410 i5</option>
+      <option value="LT" data-id="220">E6410 i7</option>
+      <option value="LT" data-id="212">E6510 i5</option>
+      <option value="LT" data-id="240">E6510 i7</option>
+      <option value="LT" data-id="215">E6220 i5</option>
+      <option value="LT" data-id="240">E6220 i7</option>
+      <option value="LT" data-id="198">E6320 i5</option>
+      <option value="LT" data-id="265">E6320 i7</option>
+      <option value="LT" data-id="224">E6420 i5</option>
+      <option value="LT" data-id="297">E6420 i7</option>
+      <option value="LT" data-id="276">E6520 i5</option>
+      <option value="LT" data-id="326">E6520 i7</option>
+      <option value="LT" data-id="233">E6230 i5</option>
+      <option value="LT" data-id="270">E6230 i7</option>
+      <option value="LT" data-id="230">E6330 i5</option>
+      <option value="LT" data-id="293">E6330 i7</option>
+      <option value="LT" data-id="240">E6430 i5</option>
+      <option value="LT" data-id="320">E6430 i7</option>
+      <option value="LT" data-id="297">E6530 i5</option>
+      <option value="LT" data-id="355">E6530 i7</option>
+      <option value="LT" data-id="324">E7240 i5</option>
+      <option value="LT" data-id="370">E7240 i7</option>
+      <option value="LT" data-id="367">E7440 i5</option>
+      <option value="LT" data-id="430">E7440 i7</option>
+      <option value="LT" data-id="296">E6440 i5</option>
+      <option value="LT" data-id="396">E6440 i7</option>
+      <option value="LT" data-id="337">E6540 i5</option>
+      <option value="LT" data-id="495">E6540 i7</option>
+      <option value="LT" data-id="512">E7450 i5</option>
+      <option value="LT" data-id="615">E7450 i7</option>
+      <option value="LT" data-id="265">M4500 i7</option>
+      <option value="LT" data-id="424">M4600 i7</option>
+      <option value="LT" data-id="515">M4700 i7</option>
+      <option value="LT" data-id="686">M4800 i7</option>
+      <option value="LT" data-id="300">M6500 i7</option>
+      <option value="LT" data-id="470">M6600 i7</option>
+      <option value="LT" data-id="560">M6700 i7</option>
+      <option value="LT" data-id="850">M4800 i7</option>
+
+      <option value="DT" data-id="Check Online">Opt 380 C2D</option>
+      <option value="DT" data-id="Check Online">Opt 780 C2D</option>
+      <option value="DT" data-id="Check Online">Opt 960 C2D</option>
+      <option value="DT" data-id="112">Opt 980 i3</option>
+      <option value="DT" data-id="150">Opt 980 i5</option>
+      <option value="DT" data-id="200">Opt 980 i7</option>
+      <option value="DT" data-id="137">Opt 390 i3</option>
+      <option value="DT" data-id="187">Opt 390 i5</option>
+      <option value="DT" data-id="150">Opt 790 i3</option>
+      <option value="DT" data-id="212">Opt 790 i5</option>
+      <option value="DT" data-id="287">Opt 790 i7</option>
+      <option value="DT" data-id="150">Opt 990 i3</option>
+      <option value="DT" data-id="225">Opt 990 i5</option>
+      <option value="DT" data-id="300">Opt 990 i7</option>
+      <option value="DT" data-id="162">Opt 3010 i3</option>
+      <option value="DT" data-id="225">Opt 3010 i5</option>
+      <option value="DT" data-id="287">Opt 3010 i7</option>
+      <option value="DT" data-id="175">Opt 7010 i3</option>
+      <option value="DT" data-id="262">Opt 7010 i5</option>
+      <option value="DT" data-id="375">Opt 7010 i7</option>
+      <option value="DT" data-id="175">Opt 9010 i3</option>
+      <option value="DT" data-id="265">Opt 9010 i5</option>
+      <option value="DT" data-id="387">Opt 9010 i7</option>
+      <option value="DT" data-id="190">Opt 3020 i3</option>
+      <option value="DT" data-id="300">Opt 3020 i5</option>
+      <option value="DT" data-id="378">Opt 3020 i7</option>
+      <option value="DT" data-id="200">Opt 7020 i3</option>
+      <option value="DT" data-id="330">Opt 7020 i5</option>
+      <option value="DT" data-id="500">Opt 7020 i7</option>
+      <option value="DT" data-id="200">Opt 9020 i3</option>
+      <option value="DT" data-id="400">Opt 9020 i5</option>
+      <option value="DT" data-id="500">Opt 9020 i7</option>
+
+    </select>
+    <select id="Form-Factor" class="custom-select">
+      <option selected>Form Factor</option>
+      <option value="Laptop" data-id="0">Laptop</option>
+      <option value="DT" data-id="0">USFF</option>
+      <option value="DT" data-id="15">SFF</option>
+      <option value="DT" data-id="10">Desktop</option>
+      <option value="DT" data-id="5">Mini Tower</option>
+    </select>
+
+    <select id="HDD" class="custom-select">
+      <option selected>HDD</option>
+        <option value="HDD-DT" data-id="0">160GB</option>
+        <option value="HDD-DT" data-id="0">250GB</option>
+        <option value="HDD-DT" data-id="10">320GB</option>
+        <option value="HDD-DT" data-id="20">500GB</option>
+        <option value="HDD-DT" data-id="50">1TB</option>
+        <option value="HDD-DT" data-id="69">128GB SSD</option>
+        <option value="HDD-DT" data-id="119">256GB SSD</option>
+
+        <option value="HDD-LT" data-id="0">160GB LT</option>
+        <option value="HDD-LT" data-id="0">250GB LT</option>
+        <option value="HDD-LT" data-id="15">320GB LT</option>
+        <option value="HDD-LT" data-id="25">500GB LT</option>
+        <option value="HDD-LT" data-id="89">1TB LT</option>
+        <option value="HDD-LT" data-id="69">128GB SSD LT</option>
+        <option value="HDD-LT" data-id="119">256GB SSD LT</option>
+    </select>
+
+    <select id="optical" class="custom-select">
+      <option selected>Optical</option>
+        <option value="Optical-DT" data-id="0">None</option>
+        <option value="Optical-DT" data-id="0">DVD DT</option>
+        <option value="Optical-DT" data-id="5">DVD-RW DT</option>
+
+        <option value="Optical-LT" data-id="0">None</option>
+        <option value="Optical-LT" data-id="0">DVD LT</option>
+        <option value="Optical-LT" data-id="10">DVD-RW LT</option>
+    </select>
+
+    <!-- <select id="HDD-LT" class="custom-select">
+      <option selected>HDD</option>
+      <option value="160GB-LT" data-id="0">160GB LT</option>
+      <option value="250GB LT" data-id="0">250GB LT</option>
+      <option value="320GB LT" data-id="15">320GB LT</option>
+      <option value="500GB LT" data-id="25">500GB LT</option>
+      <option value="1TB LT" data-id="89">1TB LT</option>
+      <option value="128SSD LT" data-id="69">128GB SSD LT</option>
+      <option value="256SSD LT" data-id="119">256GB SSD LT</option>
+    </select> -->
+
+    <select id="Windows" class="custom-select">
+      <option selected>Windows OS</option>
+      <option value="Vista" data-id="-10">Vista</option>
+      <option value="W7" data-id="0">Windows 7</option>
+      <option value="W8" data-id="0">Windows 8</option>
+      <option value="W10H" data-id="25">Windows 10 Home</option>
+      <option value="W10P" data-id="50">Windows 10 Pro</option>
+    </select>
+
+    <button type="button" class="final-btn btn btn-success">Apply</button>
+  </div>
+    <div class="final-price">
+      <table class="table">
+        <tr>
+          <th>Specs</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td id="model">Model</td>
+          <td id="model-price"> 0</td>
+        </tr>
+        <tr>
+          <td id="ff">Form Factor</td>
+          <td id="ff-price">0</td>
+        </tr>
+        <tr>
+          <td id="hdd">HDD</td>
+          <td id="hdd-price">0</td>
+        </tr>
+        <tr>
+          <td id="dvd">Optical Drive</td>
+          <td id="dvd-price">0</td>
+        </tr>
+        <tr>
+          <td id="windows">Windows OS</td>
+          <td id="windows-price">0</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h1 id="final">Final Price</h1>
+    </div>
+
+    <button class="mario-bt left" accesskey="j">j</button>
+    <button class="mario-bt stop" accesskey="k">k</button>
+    <button class="mario-bt right" accesskey="l">l</button>
+    <button class="mario-bt jump-left" accesskey="i">i</button>
+    <button class="mario-bt jump-right" accesskey="o">o</button>
+
+    <section class="background">
+      <div class="mario"></div>
+    </section>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="javascript.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+  </body>
+</html>
