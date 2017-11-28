@@ -58,7 +58,7 @@ $(document).ready(function(){
       $('#windows-price').text(windowsPrice);
 
       if (modelPrice != "Check Online") {
-        var total = modelPrice + +ffPrice + hddPrice + windowsPrice;
+        var total = modelPrice + +ffPrice + hddPrice + optPrice+ windowsPrice;
       $('#final').text("Final Price: " + total);
     } else {
       $('#final').text("Final Price: Check Online");
