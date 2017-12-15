@@ -27,27 +27,27 @@ button:focus ~ embed{
   display:block;
 }
 .left{
-  top:370px;
+  top:420px;
   left:calc(50% - 30px);
   transform: translateX(-50%);
 }
 .stop{
-  top:370px;
+  top:420px;
   left:50%;
   transform: translateX(-50%);
 }
 .right{
-  top:370px;
+  top:420px;
   left:calc(50% + 30px);
   transform: translateX(-50%);
 }
 .jump-left{
-  top:340px;
+  top:390px;
   left:calc(50% - 15px);
   transform: translateX(-50%);
 }
 .jump-right{
-  top:340px;
+  top:390px;
   left:calc(50% + 15px);
   transform: translateX(-50%);
 }

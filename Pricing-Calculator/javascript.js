@@ -37,11 +37,13 @@ $(document).ready(function(){
     $('.final-btn').click(function(){
       var modelPrice = $('#models option:selected').data("id");
       var ffPrice = $('#Form-Factor option:selected').data("id");
+      var ramPrice = $('#Memory option:selected').data("id");
       var hddPrice = $('#HDD option:selected').data("id");
       var optPrice = $('#optical option:selected').data("id");
       var windowsPrice = $('#Windows option:selected').data("id");
       var model = $('#models option:selected').text();
       var formFactor = $('#Form-Factor option:selected').text();
+      var ramText = $('#Memory option:selected').text();
       var hdd = $('#HDD option:selected').text();
       var opt = $('#optical option:selected').text();
       var windows = $('#Windows option:selected').text();
@@ -50,6 +52,8 @@ $(document).ready(function(){
       $('#model-price').text(modelPrice);
       $('#ff').text(formFactor);
       $('#ff-price').text(ffPrice);
+      $('#ram').text(ramText);
+      $('#ram-price').text(ramPrice);
       $('#hdd').text(hdd);
       $('#hdd-price').text(hddPrice);
       $('#dvd').text(opt);
@@ -58,7 +62,7 @@ $(document).ready(function(){
       $('#windows-price').text(windowsPrice);
 
       if (modelPrice != "Check Online") {
-        var total = modelPrice + +ffPrice + hddPrice + optPrice+ windowsPrice;
+        var total = modelPrice + +ffPrice + ramPrice+ hddPrice + optPrice+ windowsPrice;
       $('#final').text("Final Price: " + total);
     } else {
       $('#final').text("Final Price: Check Online");
